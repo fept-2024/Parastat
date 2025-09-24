@@ -6,10 +6,10 @@ build-backend = "setuptools.build_meta"
 name = "parastat"
 version = "0.1.0"
 description = "Parastat: CPU/GPU 并行的数据统计分析库（OLS/GLM、PCA/SVD、Bootstrap/MC）"
-readme = "README.md"
+readme = { file = "README.md", content-type = "text/markdown" }
 requires-python = ">=3.8"
 license = { text = "MIT" }
-authors = [{ name = "Parastat", email = "dev@example.com" }]
+authors = [{ name = "Yibo", email = "3895712449@qq.com" }]
 dependencies = [
   "numpy>=1.22",
   "pandas>=1.5",
@@ -25,7 +25,9 @@ dev = [
 ]
 
 [project.urls]
-Homepage = "https://example.com"
+Homepage = "https://gravatar.com/observantgentlemen213bfd8acf"
+Repository = "https://github.com/fept-2024/parastat"
+Issues = "https://github.com/fept-2024/parastat/issues"
 
 [project.scripts]
 parastat = "parastat.cli:main"

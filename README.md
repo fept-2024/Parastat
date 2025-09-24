@@ -37,7 +37,7 @@ pip install parastat[gpu]
 若需进行本地开发，克隆仓库并安装开发依赖：
 
 ```bash
-git clone https://github.com/your-username/parastat.git
+git clone https://github.com/fept-2024/parastat.git
 cd parastat
 pip install -e .[dev]
 ```
@@ -128,7 +128,7 @@ parastat --help
 1. 克隆仓库：
 
    ```bash
-   git clone https://github.com/your-username/parastat.git
+   git clone https://github.com/fept-2024/parastat.git
    ```
 
 2. 创建特性分支：
