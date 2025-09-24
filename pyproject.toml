@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "parastat"
+version = "0.1.0"
+description = "Parastat: CPU/GPU 并行的数据统计分析库（OLS/GLM、PCA/SVD、Bootstrap/MC）"
+readme = "README.md"
+requires-python = ">=3.8"
+license = { text = "MIT" }
+authors = [{ name = "Parastat", email = "dev@example.com" }]
+dependencies = [
+  "numpy>=1.22",
+  "pandas>=1.5",
+]
+
+[project.optional-dependencies]
+gpu = ["cupy-cuda12x"]
+parquet = ["pyarrow>=9"]
+dev = [
+  "pytest>=7",
+  "ruff>=0.5",
+  "mypy>=1.0",
+]
+
+[project.urls]
+Homepage = "https://example.com"
+
+[project.scripts]
+parastat = "parastat.cli:main"
+
+
